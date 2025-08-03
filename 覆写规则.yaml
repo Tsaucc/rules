@@ -17,7 +17,7 @@ rules:
   - DOMAIN-KEYWORD,Grok,🔰代理
   - DOMAIN-SUFFIX,x.ai,🔰代理
   - DOMAIN,gemini.google.com,🔰代理
-
+  - DOMAIN-KEYWORD,huggingface,🔰代理
 
 
 
@@ -1129,3 +1129,4 @@ rules:
 
   # 最终匹配 - 其他未匹配的流量走直连
   - MATCH,🚀直接连接
+
